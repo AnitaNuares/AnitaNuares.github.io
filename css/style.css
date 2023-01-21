@@ -1,6 +1,18 @@
 body {
     margin: 20px 560px;
     padding: 20px 15px;
+  
+    background: #ffeb3b;
+  }
+  
+  .gradient {
+    background: linear-gradient(45deg, green 0%, orange 40%);
+  }
+  
+  .page {
+    margin: 20px 560px;
+    padding: 20px 15px;
+  
   }
   
   .counter {
@@ -11,4 +23,5 @@ body {
   h1 {
     font-size: 44px;
     text-align: center;
+    color: white;
   }
