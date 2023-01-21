@@ -1,11 +1,14 @@
 body {
-    margin-top: 20px;
-    margin-right: 560px;
-    margin-bottom: 40px;
-    margin-left: 560px;
+    margin: 20px 560px;
+    padding: 20px 15px;
+  }
+  
+  .counter {
+    padding: 5px 15px;
+    border: 1px solid black;
   }
   
   h1 {
-    font-size: 48px;
+    font-size: 44px;
     text-align: center;
   }
