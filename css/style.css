@@ -1,8 +1,16 @@
+@font-face {
+    font-family: "Roboto Regular";
+    src: url("../fonts/Roboto-Regular.ttf");
+  }
+  
+@font-face {
+    font-family: "pt-sans-caption-bold";
+    src: url("../fonts/pt-sans-caption-bold.woff");
+  }
+
 body {
     margin: 20px 560px;
     padding: 20px 15px;
-  
-    background: #ffeb3b;
   }
   
   .gradient {
@@ -17,11 +25,12 @@ body {
   
   .counter {
     padding: 5px 15px;
-    border: 1px solid black;
-  }
+    border: 1px solid black;    
+}
   
   h1 {
     font-size: 44px;
+    font-family: pt-sans-caption-bold, sans-serif;
     text-align: center;
     color: white;
   }
