@@ -20,6 +20,12 @@ body {
   background-image: url("https://s1.1zoom.me/b6055/886/Fish_Food_Apples_Orange_fruit_Nuts_Wood_planks_521743_1920x1080.jpg");
 }
 
+.page {
+  margin: 20px 45px;
+  padding: 20px 15px;
+  display: flex;
+}
+
 .counter {
   padding: 5px 15px;
   border: 1px solid black;
