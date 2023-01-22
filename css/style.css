@@ -15,8 +15,8 @@ body {
 }
 
 .background {
-  width: 100%;
-  height: 100%;
+  width: auto;
+  height: auto;
   background-image: url("https://lookw.ru/11/1186/1567193094-3840h2160.-ispovedimyj-put-10.jpg");
 }
 
