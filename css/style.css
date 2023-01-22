@@ -10,7 +10,6 @@
 
 body {
     margin: 20px 560px;
-    padding: 20px 15px;
     display: flex;
   }
   
@@ -27,11 +26,36 @@ body {
   .counter {
     padding: 5px 15px;
     border: 1px solid black;    
-}
+  }
+
+  .age-box {
+    width: 30%;
+    margin-left: 0;
+    margin-right: auto;
+  }
   
+  .height-box {
+    max-width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .weight-box {
+    width: 30%;
+    margin-left: auto;
+    margin-right: 0;
+  }
+
+  .phys-parameters {
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 20px;
+  }
+ 
   h1 {
     font-size: 44px;
     font-family: pt-sans-caption-bold, sans-serif;
     text-align: center;
     color: white;
   }
+
