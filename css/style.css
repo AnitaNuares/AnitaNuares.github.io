@@ -34,13 +34,13 @@ body {
 }
 
 .box {
-  width: 30%;
+  width: 32%;
 }
 
 .parameters {
   margin-bottom: 5px;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 17px;
 }
 
 .item {
@@ -67,7 +67,7 @@ body {
 .activity {
   margin-bottom: 5px;
   font-weight: bold;
-  font-size: 15px;
+  font-size: 14px;
 }
 
 h1 {
@@ -101,7 +101,9 @@ display: none;
 .reset {
   width: 200px;
   height: 35px;
-  color: #dbd8d8;
+  color: #C0C0C0;
   background-color: #e6e0e0;
   font-size: 12px;
+  border-radius: 5px;
+  border: none;
   }
