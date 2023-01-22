@@ -1,61 +1,103 @@
 @font-face {
-    font-family: "Roboto Regular";
-    src: url("../fonts/Roboto-Regular.ttf");
-  }
-  
+  font-family: "Roboto Regular";
+  src: url("../fonts/Roboto-Regular.ttf");
+}
+
 @font-face {
-    font-family: "pt-sans-caption-bold";
-    src: url("../fonts/pt-sans-caption-bold.woff");
-  }
+  font-family: "pt-sans-caption-bold";
+  src: url("../fonts/pt-sans-caption-bold.woff");
+}
 
 body {
-    margin: 20px 560px;
-    display: flex;
-  }
-  
-  .gradient {
-    background: linear-gradient(45deg, green 0%, orange 40%);
-  }
-  
-  .page {
-    margin: 20px 560px;
-    padding: 20px 15px;
-    display: flex;
-  }
-  
-  .counter {
-    padding: 5px 15px;
-    border: 1px solid black;    
-  }
+  margin: 20px 560px;
+  padding: 20px 15px;
+  display: flex;
+}
 
-  .age-box {
-    width: 30%;
-    margin-left: 0;
-    margin-right: auto;
-  }
+.gradient {
+  background: linear-gradient(45deg, green 0%, orange 40%);
+}
+
+.page {
+  margin: 20px 560px;
+  padding: 20px 15px;
+  display: flex;
   
-  .height-box {
-    max-width: 30%;
-    margin-left: auto;
-    margin-right: auto;
-  }
+}
 
-  .weight-box {
-    width: 30%;
-    margin-left: auto;
-    margin-right: 0;
-  }
+.counter {
+  background-color: mediumseagreen;
+  padding: 5px 15px;
+  border: 1px solid black;
+}
 
-  .phys-parameters {
-    margin-bottom: 5px;
-    font-weight: bold;
-    font-size: 20px;
-  }
- 
-  h1 {
-    font-size: 44px;
-    font-family: pt-sans-caption-bold, sans-serif;
-    text-align: center;
-    color: white;
-  }
+.person-data {
+  display: flex;
+  border: none;
+  padding: 0;
+  margin-bottom: 12px;
+}
 
+.box {
+  width: 30%;
+}
+
+.parameters {
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.item {
+  color: gray;
+  font-size: 12px;
+}
+
+.window {
+  width: 50px;
+  text-align: center;
+  border-radius: 5px;
+  border-color: gray;
+  border-width: 2px;
+  height: 25px;
+}
+
+.counter {
+  padding: 5px 15px;
+  border-radius: 15px;
+  background-color: white;
+}
+
+.activity {
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+h1 {
+  font-size: 40px;
+  font-family: pt-sans-caption-bold, sans-serif;
+  text-align: center;
+  color: white;
+}
+
+p {
+  display: block;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  margin-inline-start: 10px;
+  margin-inline-end: 0px;
+  color: #C0C0C0;
+}
+
+.submit {
+width: 150px;
+height: 35px;
+color: white;
+background-color: #C0C0C0;
+font-size: 16px;
+}
+
+.calculation {
+display: none;
+}
